@@ -1,4 +1,4 @@
-*** These scripts will download daily temperature data from the airports at these locations:
+These scripts will download daily temperature data from the airports at these locations:
 
 * Athens, GA, USA
 * Knoxville, TN, USA
