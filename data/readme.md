@@ -1,0 +1,1 @@
+These files are the results of reading data from the Weather Undergound site on 31 December 2014 and they can be used to complete the analyses and charts in the event the data cannot be read from Weather Underground.
