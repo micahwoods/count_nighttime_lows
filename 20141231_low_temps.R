@@ -6,7 +6,8 @@ source("r/weather_data_scrape.R")
 # the data folder contains the results of "r/weather_data_scrape.R"
 
 # combine the data from multiple cities
-all <- as.data.frame(rbind(athens, tokyo, portland, knoxville, osaka, ny))
+all <- as.data.frame(rbind(athens, tokyo, portland, knoxville, 
+                           osaka, ny, jax))
 
 # give simple column names and format data
 colnames(all) <- c("low", "year", "city", "meanTemp")
