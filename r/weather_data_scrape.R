@@ -150,17 +150,20 @@ ny$city <- "New York, NY, USA"
 jax$city <- "Jacksonville, FL, USA"
 
 athens <- cbind(athens$Min.TemperatureC, athens$year, athens$city, 
-                athens$Mean.TemperatureC)
+                athens$Mean.TemperatureC, athens$Max.TemperatureC)
 tokyo <- cbind(tokyo$Min.TemperatureC, tokyo$year, tokyo$city, 
-               tokyo$Mean.TemperatureC)
+               tokyo$Mean.TemperatureC, tokyo$Max.TemperatureC)
 portland <- cbind(portland$Min.TemperatureC, portland$year, portland$city,
-                  portland$Mean.TemperatureC)
+                  portland$Mean.TemperatureC, portland$Max.TemperatureC)
 knoxville <- cbind(knoxville$Min.TemperatureC, knoxville$year, 
-                   knoxville$city, knoxville$Mean.TemperatureC)
+                   knoxville$city, knoxville$Mean.TemperatureC,
+                   knoxville$Max.TemperatureC)
 osaka <- cbind(osaka$Min.TemperatureC, osaka$year, osaka$city,
-               osaka$Mean.TemperatureC)
-ny <- cbind(ny$Min.TemperatureC, ny$year, ny$city, ny$Mean.TemperatureC)
-jax <- cbind(jax$Min.TemperatureC, jax$year, jax$city, jax$Mean.TemperatureC)
+               osaka$Mean.TemperatureC, osaka$Max.TemperatureC)
+ny <- cbind(ny$Min.TemperatureC, ny$year, ny$city, ny$Mean.TemperatureC,
+            ny$Max.TemperatureC)
+jax <- cbind(jax$Min.TemperatureC, jax$year, jax$city, jax$Mean.TemperatureC,
+             jax$Max.TemperatureC)
 
 # write the output to the data folder so that these analyses
 # can be completed and charts generated without internet access
